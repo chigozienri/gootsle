@@ -15436,20 +15436,14 @@
                                     if (e) {
                                       var a = "";
                                       switch (e) {
-                                        case Ma:
-                                          a = (function (e) {
-                                            return e ? "ðŸŸ§" : "ðŸŸ©";
-                                          })(i);
+                                        case "present":
+                                          a = "🟨";
                                           break;
-                                        case Ia:
-                                          a = (function (e) {
-                                            return e ? "ðŸŸ¦" : "ðŸŸ¨";
-                                          })(i);
+                                        case "absent":
+                                          a = "⬜";
                                           break;
-                                        case Oa:
-                                          a = (function (e) {
-                                            return e ? "â¬›" : "â¬œ";
-                                          })(r);
+                                        case "correct":
+                                          a = "🟩";
                                       }
                                       d += a;
                                     }

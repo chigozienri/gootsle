@@ -1,16 +1,55 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SR7245G87D"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-SR7245G87D"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-SR7245G87D');
+      gtag("config", "G-SR7245G87D");
     </script>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+
+    <title>Gootsle - A daily goots</title>
+    <meta
+      name="description"
+      content="Guess the hidden word in 6 tries. The answer is always GOOTS."
+    />
+
+    <!-- FB Meta Tags -->
+    <meta property="og:url" content="https://gootsle.glitch.me" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Gootsle - A daily goots" />
+    <meta
+      property="og:description"
+      content="Guess the hidden word in 6 tries. The answer is always GOOTS."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.global/5794d935-83ba-4344-9d72-f6aec16e2ed3/GOOTSLE.jpeg?v=1643029931936"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="gootsle.glitch.me" />
+    <meta
+      property="twitter:image"
+      content="https://cdn.glitch.global/5794d935-83ba-4344-9d72-f6aec16e2ed3/GOOTSLE.jpeg?v=1643029931936"
+    />
+
+    <meta name="theme-color" content="#6aaa64" />
+    <link rel="manifest" href="manifest.json" />
 
     <style>
       /* Global Styles & Colors */
@@ -27,7 +66,7 @@
         /* Colorblind colors */
         --orange: #f5793a;
         --blue: #85c0f9;
-        font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+        font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
         font-size: 16px;
         --header-height: 50px;
         --keyboard-height: 200px;
@@ -112,7 +151,7 @@
       (function () {
         // Defining the hash before the main bundle allows the bundle access window.hash
         window.wordle = window.wordle || {};
-        window.wordle.hash = 'e65ce0a5';
+        window.wordle.hash = "e65ce0a5";
       })();
     </script>
     <script src="script.js"></script>
